@@ -1,0 +1,13 @@
+import 'dart:io';
+void main()
+{
+  print("Enter Your Name?");
+  String? name;
+  name = stdin.readLineSync()!;
+  print("Hi! $name, please enter your age");
+  int? age;
+  age = int.parse(stdin.readLineSync()!);
+  int remainage=100-age;
+  print("Hi! $name you have left$remainage to be a Snake");
+
+  }
